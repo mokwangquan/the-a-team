@@ -26,6 +26,7 @@
   },
   "scripts": {
     "serve": "REACT_APP_HOST_ENV=development craco start",
+    "build": "craco build",
     "development": "env-cmd -f .env.development craco build",
     "staging": "env-cmd -f .env.staging craco build",
     "production": "env-cmd -f .env.production craco build",
