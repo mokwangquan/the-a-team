@@ -15,7 +15,7 @@ const Root = (props) => {
     className
   } = props || {}
 
-  const [page, setPage] = useState(3)
+  const [page, setPage] = useState(1)
   const [amount, setAmount] = useState(0)
 
   return (
