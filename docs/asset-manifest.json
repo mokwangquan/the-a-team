@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/the-a-team/static/js/main.f82c3745.js",
+    "static/js/787.0e8f8aeb.chunk.js": "/the-a-team/static/js/787.0e8f8aeb.chunk.js",
+    "index.html": "/the-a-team/index.html",
+    "main.f82c3745.js.map": "/the-a-team/static/js/main.f82c3745.js.map",
+    "787.0e8f8aeb.chunk.js.map": "/the-a-team/static/js/787.0e8f8aeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f82c3745.js"
+  ]
+}
