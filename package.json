@@ -1,0 +1,53 @@
+{
+  "name": "the-a-team",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "antd": "^5.3.1",
+    "axios": "^1.3.4",
+    "dayjs": "^1.11.7",
+    "env-cmd": "^10.1.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-responsive": "^9.0.2",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.59.3",
+    "sass-loader": "^13.2.1",
+    "styled-components": "^5.3.9",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "serve": "REACT_APP_HOST_ENV=development craco start",
+    "development": "env-cmd -f .env.development craco build",
+    "staging": "env-cmd -f .env.staging craco build",
+    "production": "env-cmd -f .env.production craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ],
+    "rules": {
+      "no-unused-vars": 0,
+      "react-hooks/exhaustive-deps": 0
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
